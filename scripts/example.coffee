@@ -10,19 +10,19 @@
 
 module.exports = (robot) ->
 
-   robot.hear /kxhitiz/i, (res) ->
-     res.send "Respect!"
+   robot.hear /who kshitiz/i, (res) ->
+     res.send "the creator!"
 
-   robot.hear /ashok/i, (res) ->
+   robot.hear /who ashok/i, (res) ->
      res.send "Fuchhu!"
 
-   robot.hear /suraj/i, (res) ->
+   robot.hear /who suraj/i, (res) ->
      res.send "Byanju!"
 
-   robot.hear /kaushal/i, (res) ->
+   robot.hear /who kaushal/i, (res) ->
      res.send "Lambu!"
 
-   robot.hear /deep/i, (res) ->
+   robot.hear /who deep/i, (res) ->
      res.send "Motey!"
   #
   # robot.respond /open the (.*) doors/i, (res) ->
