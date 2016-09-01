@@ -12,6 +12,18 @@ module.exports = (robot) ->
 
    robot.hear /kxhitiz/i, (res) ->
      res.send "Respect!"
+
+   robot.hear /ashok/i, (res) ->
+     res.send "Fuchhu!"
+
+   robot.hear /suraj/i, (res) ->
+     res.send "Byanju!"
+
+   robot.hear /kaushal/i, (res) ->
+     res.send "Lambu!"
+
+   robot.hear /deep/i, (res) ->
+     res.send "Motey!"
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
@@ -23,10 +35,9 @@ module.exports = (robot) ->
   # robot.hear /I like pie/i, (res) ->
   #   res.emote "makes a freshly baked pie"
   #
-  # lulz = ['lol', 'rofl', 'lmao']
-  #
-  # robot.respond /lulz/i, (res) ->
-  #   res.send res.random lulz
+   lulz = ['lol', 'rofl', 'lmao']
+   robot.respond /lulz/i, (res) ->
+     res.send res.random lulz
   #
   # robot.topic (res) ->
   #   res.send "#{res.message.text}? That's a Paddlin'"
